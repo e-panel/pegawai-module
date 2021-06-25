@@ -1,0 +1,19 @@
+{
+    "name": "Pegawai",
+    "alias": "pegawai",
+    "description": "Module Pegawai untuk E-Panel.",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Pegawai\\Providers\\PegawaiServiceProvider"
+    ],
+    "aliases": {
+        "Personil": "Modules\\Pegawai\\Entities\\Personil", 
+        "Satker": "Modules\\Pegawai\\Entities\\Satker", 
+        "PimpinanKarir": "Modules\\Pegawai\\Entities\\Karir", 
+        "PimpinanPendidikan": "Modules\\Pegawai\\Entities\\Pendidikan", 
+        "PimpinanRiwayat": "Modules\\Pegawai\\Entities\\Riwayat"
+    },
+    "files": [],
+    "requires": []
+}
